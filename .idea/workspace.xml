@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f45406e6-d8e6-46ef-ba8c-0ebe22abf791" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/classroomSeven/SwagLabsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/classroomSix/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/classroomSix/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/classroomSix/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/MavenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/WebTest.java" afterDir="false" />
+    <list default="true" id="f45406e6-d8e6-46ef-ba8c-0ebe22abf791" name="Changes" comment="04.07">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/acodemyShop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classroomEight/AcodemyShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/classroomSeven/SwagLabsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classroomSeven/SwagLabsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ingri/Desktop/Studijas/Automatizacija2022/IngridaMezeckaTestAutomation&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/10.07.2022"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ingri\Desktop\Studijas\Automatizacija2022\IngridaMezeckaTestAutomation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MavenTest">
+  <component name="RunManager" selected="TestNG.AcodemyShopTest">
     <configuration name="MavenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.MavenTest" />
       <module name="IngridaMezeckaTestAutomation" />
@@ -75,10 +63,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AcodemyShopTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="IngridaMezeckaTestAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classroomEight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classroomEight" />
+      <option name="MAIN_CLASS_NAME" value="classroomEight.AcodemyShopTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -86,33 +80,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwagLabsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="IngridaMezeckaTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="PATTERN" value="classroomSeven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="IngridaMezeckaTestAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mavenTestNGHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.WebTest" />
+      <option name="PACKAGE_NAME" value="classroomSeven" />
+      <option name="MAIN_CLASS_NAME" value="classroomSeven.SwagLabsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -158,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AcodemyShopTest" />
+        <item itemvalue="TestNG.SwagLabsTest" />
         <item itemvalue="Application.MavenTest" />
         <item itemvalue="TestNG.WebTest.testWebTitleTwo" />
         <item itemvalue="TestNG.WebTest.testWebTitle" />
-        <item itemvalue="TestNG.WebTest" />
-        <item itemvalue="TestNG.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +152,21 @@
       <option name="presentableId" value="Default" />
       <updated>1656423343310</updated>
     </task>
+    <task id="LOCAL-00001" summary="04.07">
+      <created>1656942340767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656942340767</updated>
+    </task>
+    <task id="LOCAL-00002" summary="04.07">
+      <created>1656942428383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656942428383</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,5 +179,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="04.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.07" />
   </component>
 </project>
