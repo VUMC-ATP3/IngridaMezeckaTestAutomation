@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 
 public class AcodemyShopTest {
-
+//kajsefjshfjdx
     WebDriver driver;
     WebDriverWait wait;
 
@@ -26,7 +26,7 @@ public class AcodemyShopTest {
     @Test
     public void testSearsh() throws InterruptedException {
         driver.get("https://shop.acodemy.lv/");
-        MainPage mainPage = new MainPage(driver);
+        //MainPage mainPage = new MainPage(driver);
 
         Thread.sleep(5000);
     }
